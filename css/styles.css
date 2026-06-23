@@ -1,6 +1,7 @@
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
+color:#222;
 }
 
 .navbar{
@@ -70,4 +71,139 @@ background:#e09f3e;
 color:white;
 text-decoration:none;
 border-radius:5px;
+border:none;
+cursor:pointer;
+font-size:16px;
+font-weight:bold;
+}
+
+.page-hero{
+background:#444;
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.page-hero-content{
+max-width:800px;
+margin:0 auto;
+}
+
+.page-hero h1{
+font-size:42px;
+margin:0 0 15px;
+}
+
+.page-hero p{
+font-size:20px;
+line-height:1.5;
+margin:0;
+}
+
+.contact-section{
+padding:70px 20px;
+background:#f6f6f6;
+}
+
+.contact-container{
+max-width:1100px;
+margin:0 auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:start;
+}
+
+.eyebrow{
+display:inline-block;
+color:#e09f3e;
+font-weight:bold;
+text-transform:uppercase;
+letter-spacing:1px;
+font-size:13px;
+margin-bottom:12px;
+}
+
+.contact-info h2{
+font-size:34px;
+margin:0 0 15px;
+}
+
+.contact-info p{
+font-size:17px;
+line-height:1.6;
+}
+
+.contact-card{
+background:white;
+padding:22px;
+border-radius:8px;
+margin-top:20px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.contact-card h3{
+margin:0 0 8px;
+}
+
+.small-note,
+.form-note{
+font-size:14px;
+color:#666;
+}
+
+.contact-form{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.contact-form label{
+display:block;
+font-weight:bold;
+margin-bottom:8px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+width:100%;
+padding:12px;
+margin-bottom:18px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:16px;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.contact-form textarea{
+resize:vertical;
+}
+
+.form-button{
+width:100%;
+margin-top:0;
+}
+
+@media(max-width:800px){
+.nav-container{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.page-hero h1,
+.hero-content h1{
+font-size:34px;
+}
 }
