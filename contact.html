@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Schmitt Renovations</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <img src="assets/logo/logo.png" alt="Schmitt Renovations Logo">
+            <span>Schmitt Renovations</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
+<main>
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>Contact Schmitt Renovations</h1>
+            <p>Ready to talk through your next project? Send us a message and we’ll help you take the next step.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="eyebrow">Let’s Build Something Better</span>
+                <h2>Tell us about your renovation project.</h2>
+                <p>
+                    Whether you are planning a small update, a full remodel, or just need honest guidance,
+                    Schmitt Renovations is here to help homeowners in Stow, Ohio and surrounding communities.
+                </p>
+
+                <div class="contact-card">
+                    <h3>Service Area</h3>
+                    <p>Stow, Ohio and surrounding communities</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Contact Details</h3>
+                    <p>Phone and email coming soon.</p>
+                    <p class="small-note">Replace this section once the final business phone number and email are ready.</p>
+                </div>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+
+                <label for="project">Project Type</label>
+                <select id="project" name="project">
+                    <option value="">Select a project type</option>
+                    <option value="kitchen">Kitchen Renovation</option>
+                    <option value="bathroom">Bathroom Renovation</option>
+                    <option value="basement">Basement Finishing</option>
+                    <option value="flooring">Flooring</option>
+                    <option value="general">General Remodeling</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Project Details</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell us a little about what you need..."></textarea>
+
+                <button type="submit" class="cta-button form-button">Send Message</button>
+                <p class="form-note">This form is ready for styling, but still needs a form handler before messages can be submitted.</p>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+</html>
